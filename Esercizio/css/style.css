@@ -1,11 +1,4 @@
 /* Your styles here */
-
-
-
-* { 
-    
-   }
-
 body { 
     text-align: center;
    }
@@ -17,7 +10,13 @@ h1  {
     font-size: 40px;
    }
 
-h2, h3, h4 {
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    }
+
+ h3, h4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 20px;
@@ -26,6 +25,7 @@ h2, h3, h4 {
 p { 
     font-size: 1.2 rem;
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.65;
    }
 
 button { 
@@ -46,6 +46,7 @@ button {
 a { 
     color: #c8e7f0;
     font-family: 'Montserrat', sans-serif; 
+    line-height: 1.7065;
         }
 
 span  { 
@@ -66,11 +67,15 @@ span  {
        }
 
 .intestazione-2 { 
-    color: white
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
     }
 
 .testo-testimonianze{ 
     color: white;
+
    }
 
 
